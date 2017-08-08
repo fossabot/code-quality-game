@@ -1,4 +1,5 @@
 # Code Quality Game [![Build Status](https://travis-ci.org/mechero/code-quality-game.svg?branch=master)](https://travis-ci.org/mechero/code-quality-game)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fricardogarfe%2Fcode-quality-game.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fricardogarfe%2Fcode-quality-game?ref=badge_shield)
 A simple gamified web to improve code quality using SonarQube. 
 
 ## Introduction
@@ -19,7 +20,7 @@ First you'll need to list the users that are going to participate in the game. T
 ```
 It's important that the `id` matches with the SonarQube username. The `alias` will be used for the rankings and the `team` is used for aggregated Ranking per teams. 
 
-In case your Sonarqube server doesn´t have anonymous access you need to specify credentials for accessing the API. You can create an user with basic permissions for that.
+In case your Sonarqube server doesnÂ´t have anonymous access you need to specify credentials for accessing the API. You can create an user with basic permissions for that.
 
 ```
 # Sample credentials for accessing the API
@@ -40,3 +41,7 @@ The application looks for issues assigned to every user and it assign points for
 
 ## Badges
 This is a work in progress, some things should be improved. Right now there are two sample badges that you can win. One is related with the date in which you start playing, if you are an early adopter you will obtain some extra points (obviously you will lose them after the SonarQube issue cleaner comes into play). The second one is related with the Unit Test Coverage and there are different ranges. Explore the code to know more about them.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fricardogarfe%2Fcode-quality-game.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fricardogarfe%2Fcode-quality-game?ref=badge_large)
